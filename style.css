@@ -1,0 +1,119 @@
+/* Header Area Start */
+
+.container {
+    width: 100%;
+    /* height: 808px; */
+    color: #808080;
+    margin: auto;
+}
+p {
+    font-size: 18px;
+}
+
+.header {
+    width: 100%;
+    height: 808px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative !important;
+    background-image: url("img/banner/banner3.png");
+}
+
+.headerInfo {
+    color: white;
+    position: absolute;
+    /* width: 100%;
+    height: 100%; */
+    top: 250px;
+    right: 100px;
+    width: 300px;
+    height: 100%;
+    text-align: right;
+}
+
+
+.btn {
+    background-color: white;
+    color: #005FAC;
+    color: black;
+    padding: 10px;
+    border: none;
+    font-weight: 500;
+}
+
+/* Header Area End */
+/* Middle Body Area Start */
+.container2 {
+    /* background-color: skyblue; */
+    margin: 130px auto;
+    /* height: 720px; */
+    width: 80%;
+
+
+}
+
+.midBody {
+    display: flex;
+    
+}
+.mbdimg {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.mbdInfo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.infoContent {
+    margin-left: 10%;
+}
+
+.infoContent h1 {
+    font-size: 40px;
+    line-height: 47px;
+}
+.infoContent p {
+    font-size: 18px;
+    width: 75%;
+}
+.infoUl {
+    padding-left: 0;
+}
+.listItem {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+}
+svg {
+    width: 20px;
+}
+/* Middle Body Area End */
+/* Plan Area Start */
+.container3 {
+    width: 70%;
+    margin: 130px auto;
+}
+.myplan h1 {
+    text-align: center;
+}
+.planWrapper {
+   display: flex;
+   justify-content: space-around;
+}
+.planbox {
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Plan Area End */
+
+
+
